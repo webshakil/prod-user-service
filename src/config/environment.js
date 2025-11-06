@@ -58,30 +58,3 @@ export default {
     authServiceUrl: process.env.AUTH_SERVICE_URL || 'http://localhost:3001',
   },
 };
-// import * as dotenv from 'dotenv';
-// dotenv.config();
-
-// export default {
-//   nodeEnv: process.env.NODE_ENV || 'development',
-//   port: process.env.PORT || 3002,
-//   serviceName: process.env.SERVICE_NAME || 'user-service',
-//   database: {
-//     host: process.env.DB_HOST,
-//     port: process.env.DB_PORT,
-//     database: process.env.DB_NAME,
-//     user: process.env.DB_USER,
-//     password: process.env.DB_PASSWORD,
-//   },
-//   jwt: {
-//     secret: process.env.JWT_SECRET,
-//     expiresIn: '24h',
-//   },
-//   services: {
-//     authServiceUrl: process.env.AUTH_SERVICE_URL || 'http://localhost:3001',
-//     subscriptionServiceUrl: process.env.SUBSCRIPTION_SERVICE_URL || 'http://localhost:3003',
-//     roleServiceUrl: process.env.ROLE_SERVICE_URL || 'http://localhost:3004',
-//   },
-//   logging: {
-//     level: process.env.LOG_LEVEL || 'info',
-//   },
-// };

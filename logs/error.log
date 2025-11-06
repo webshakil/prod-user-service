@@ -238,3 +238,31 @@
 {"error":"Connection terminated due to connection timeout","level":"error","message":"Error verifying user","timestamp":"2025-10-23T13:41:07.381Z","userId":1}
 {"error":"Connection terminated due to connection timeout","level":"error","message":"Database query error","timestamp":"2025-10-23T13:41:07.381Z"}
 {"error":"Connection terminated due to connection timeout","level":"error","message":"Error verifying user","timestamp":"2025-10-23T13:41:07.382Z","userId":1}
+{"error":"connect ETIMEDOUT 35.227.164.209:5432","level":"error","message":"Database query error","timestamp":"2025-11-05T10:51:26.775Z"}
+{"error":"connect ETIMEDOUT 35.227.164.209:5432","level":"error","message":"Error verifying user","timestamp":"2025-11-05T10:51:26.775Z","userId":1}
+{"error":"connect ETIMEDOUT 35.227.164.209:5432","level":"error","message":"Database query error","timestamp":"2025-11-05T10:51:26.776Z"}
+{"error":"connect ETIMEDOUT 35.227.164.209:5432","level":"error","message":"Error verifying user","timestamp":"2025-11-05T10:51:26.776Z","userId":1}
+{"error":"connect ETIMEDOUT 35.227.164.209:5432","level":"error","message":"Database query error","timestamp":"2025-11-05T10:51:30.871Z"}
+{"error":"connect ETIMEDOUT 35.227.164.209:5432","level":"error","message":"Error verifying user","timestamp":"2025-11-05T10:51:30.871Z","userId":1}
+{"error":"connect ETIMEDOUT 35.227.164.209:5432","level":"error","message":"Database query error","timestamp":"2025-11-05T10:51:30.871Z"}
+{"error":"connect ETIMEDOUT 35.227.164.209:5432","level":"error","message":"Error verifying user","timestamp":"2025-11-05T10:51:30.871Z","userId":1}
+{"error":"connect ETIMEDOUT 35.227.164.209:5432","level":"error","message":"Database query error","timestamp":"2025-11-05T10:51:34.966Z"}
+{"error":"connect ETIMEDOUT 35.227.164.209:5432","level":"error","message":"Error verifying user","timestamp":"2025-11-05T10:51:34.967Z","userId":1}
+{"error":"connect ETIMEDOUT 35.227.164.209:5432","level":"error","message":"Database query error","timestamp":"2025-11-05T10:51:34.967Z"}
+{"error":"connect ETIMEDOUT 35.227.164.209:5432","level":"error","message":"Error verifying user","timestamp":"2025-11-05T10:51:34.967Z","userId":1}
+{"error":"connect ETIMEDOUT 35.227.164.209:5432","level":"error","message":"Database query error","timestamp":"2025-11-05T10:52:32.311Z"}
+{"error":"connect ETIMEDOUT 35.227.164.209:5432","level":"error","message":"Error verifying user","timestamp":"2025-11-05T10:52:32.311Z","userId":1}
+{"error":"connect ETIMEDOUT 35.227.164.209:5432","level":"error","message":"Database query error","timestamp":"2025-11-05T10:52:32.311Z"}
+{"error":"connect ETIMEDOUT 35.227.164.209:5432","level":"error","message":"Error verifying user","timestamp":"2025-11-05T10:52:32.311Z","userId":1}
+{"error":"userService.getUserProfile is not a function","level":"error","message":"Error retrieving profile","timestamp":"2025-11-06T09:19:45.120Z"}
+{"error":"userService.getUserProfile is not a function","level":"error","message":"Error retrieving profile","timestamp":"2025-11-06T09:19:45.125Z"}
+{"error":"userService.getUserProfile is not a function","level":"error","message":"Error retrieving profile","timestamp":"2025-11-06T09:33:15.180Z"}
+{"error":"userService.getUserProfile is not a function","level":"error","message":"Error retrieving profile","timestamp":"2025-11-06T09:33:20.757Z"}
+{"error":"userService.getUserProfile is not a function","level":"error","message":"Error retrieving profile","timestamp":"2025-11-06T09:40:18.008Z"}
+{"error":"userService.getUserProfile is not a function","level":"error","message":"Error retrieving profile","timestamp":"2025-11-06T09:40:19.635Z"}
+{"error":"userService.getUserProfile is not a function","level":"error","message":"Error retrieving profile","timestamp":"2025-11-06T09:46:24.794Z"}
+{"error":"userService.getUserProfile is not a function","level":"error","message":"Error retrieving profile","timestamp":"2025-11-06T09:46:27.255Z"}
+{"error":"userService.getUserProfile is not a function","level":"error","message":"Error retrieving profile","timestamp":"2025-11-06T09:52:17.214Z"}
+{"error":"userService.getUserProfile is not a function","level":"error","message":"Error retrieving profile","timestamp":"2025-11-06T09:52:17.487Z"}
+{"error":"userService.getUserProfile is not a function","level":"error","message":"Error retrieving profile","timestamp":"2025-11-06T09:53:03.029Z"}
+{"error":"userService.getUserProfile is not a function","level":"error","message":"Error retrieving profile","timestamp":"2025-11-06T09:53:04.769Z"}

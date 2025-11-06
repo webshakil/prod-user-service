@@ -33,27 +33,3 @@ router.get('/admin/:userId', isAdmin, profileController.getProfile);
 router.put('/admin/:userId', isAdmin, profileController.updateProfile);
 
 export default router;
-// import express from 'express';
-// import * as profileController from '../controllers/profileController.js';
-
-// const router = express.Router();
-
-// // All endpoints require userId in request body
-// router.post('/me', profileController.getProfile);
-// router.post('/me/update', profileController.updateProfile);
-// router.post('/me/preferences', profileController.getPreferences);
-// router.post('/me/preferences/update', profileController.updatePreferences);
-
-// export default router;
-// import express from 'express';
-// import * as profileController from '../controllers/profileController.js';
-// import { verifyToken } from '../middleware/auth.js';
-
-// const router = express.Router();
-
-// router.get('/me', verifyToken, profileController.getProfile);
-// router.put('/me', verifyToken, profileController.updateProfile);
-// router.get('/me/preferences', verifyToken, profileController.getPreferences);
-// router.put('/me/preferences', verifyToken, profileController.updatePreferences);
-
-// export default router;
