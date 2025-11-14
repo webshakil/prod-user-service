@@ -19333,3 +19333,588 @@
 {"duration":1926,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-13T18:53:10.642Z"}
 {"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-13T18:53:10.809Z","userId":1}
 {"level":"info","message":"Profile retrieved","timestamp":"2025-11-13T18:53:10.895Z","userId":1}
+{"level":"info","message":"User Service running on port 3002","timestamp":"2025-11-14T01:27:07.548Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T01:29:31.356Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T01:29:31.366Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T01:29:32.676Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T01:29:32.864Z"}
+{"duration":1557,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T01:29:32.915Z"}
+{"duration":1739,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T01:29:33.106Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T01:29:33.155Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T01:29:33.361Z","userId":1}
+{"level":"info","message":"User Service running on port 3002","timestamp":"2025-11-14T01:58:20.800Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:00:03.936Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:00:03.947Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:00:05.204Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:00:05.210Z"}
+{"duration":1505,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:00:05.443Z"}
+{"duration":1500,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:00:05.448Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:00:05.680Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:00:05.686Z","userId":1}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:16:45.911Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:16:47.449Z"}
+{"duration":1775,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:16:47.687Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:16:47.925Z","userId":5}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:16:53.505Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:16:53.507Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:16:54.052Z","userId":5}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:16:54.973Z"}
+{"duration":1772,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:16:55.279Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:16:55.587Z","userId":5}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:33:03.514Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:33:03.516Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:33:03.519Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:33:03.521Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:33:05.188Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:33:05.199Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:33:05.291Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:33:05.394Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:33:05.410Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:33:05.412Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:33:05.412Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:33:05.413Z"}
+{"duration":1903,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:33:05.424Z"}
+{"duration":1921,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:33:05.437Z"}
+{"duration":2008,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:33:05.527Z"}
+{"duration":2117,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:33:05.632Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:33:05.661Z","userId":5}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:33:05.675Z","userId":5}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:33:05.770Z","userId":5}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:33:05.876Z","userId":5}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:33:06.711Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:33:06.711Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:33:06.732Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:33:06.796Z"}
+{"duration":1529,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:33:06.942Z"}
+{"duration":1539,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:33:06.952Z"}
+{"duration":1561,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:33:06.972Z"}
+{"duration":1620,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:33:07.032Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:33:07.173Z","userId":5}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:33:07.192Z","userId":5}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:33:07.213Z","userId":5}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:33:07.271Z","userId":5}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:38:58.749Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:39:01.093Z"}
+{"duration":2616,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:39:01.366Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:39:01.676Z","userId":5}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:39:09.872Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:39:09.873Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:39:10.044Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:39:10.045Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:39:10.046Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:39:10.047Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:39:10.378Z","userId":5}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:39:11.244Z"}
+{"duration":1605,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:39:11.478Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:39:11.582Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:39:11.596Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:39:11.687Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:39:11.691Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:39:11.713Z","userId":5}
+{"duration":1770,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:39:11.814Z"}
+{"duration":1787,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:39:11.832Z"}
+{"duration":1872,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:39:11.920Z"}
+{"duration":1882,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:39:11.928Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:39:12.045Z","userId":5}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:39:12.070Z","userId":5}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:39:12.151Z","userId":5}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:39:12.166Z","userId":5}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:39:28.852Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:39:30.287Z"}
+{"duration":1801,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:39:30.653Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:39:30.961Z","userId":4}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:39:39.741Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:39:39.742Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:39:41.251Z"}
+{"duration":1767,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:39:41.509Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:40:24.658Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:40:26.171Z"}
+{"duration":1803,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:40:26.462Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:40:32.835Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:40:32.836Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:40:33.504Z","userId":1}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:40:34.175Z"}
+{"duration":1612,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:40:34.448Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:40:34.756Z","userId":1}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:42:28.107Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:42:28.108Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:42:28.430Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:42:28.431Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:42:29.588Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:42:29.753Z"}
+{"duration":1715,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:42:29.822Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:42:29.895Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:42:29.901Z"}
+{"duration":1888,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:42:29.996Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:42:30.061Z","userId":1}
+{"duration":1702,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:42:30.134Z"}
+{"duration":1711,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:42:30.141Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:42:30.277Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:42:30.378Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:42:30.429Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:53:29.522Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:53:29.523Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:53:29.524Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:53:29.525Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:53:29.544Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:53:29.545Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:53:31.086Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:53:31.256Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:53:31.289Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:53:31.304Z"}
+{"duration":1794,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:53:31.317Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:53:31.391Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:53:31.396Z"}
+{"duration":1980,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:53:31.502Z"}
+{"duration":1996,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:53:31.521Z"}
+{"duration":2000,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:53:31.544Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:53:31.551Z","userId":1}
+{"duration":2102,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:53:31.626Z"}
+{"duration":2091,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:53:31.636Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:53:31.750Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:53:31.754Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:53:31.783Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:53:31.862Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:53:31.876Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:53:43.690Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:53:43.691Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:53:43.692Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:53:43.693Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:53:45.038Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:53:45.099Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:53:45.105Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:53:45.187Z"}
+{"duration":1589,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:53:45.279Z"}
+{"duration":1647,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:53:45.339Z"}
+{"duration":1648,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:53:45.340Z"}
+{"duration":1729,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:53:45.422Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:53:45.523Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:53:45.574Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:53:45.583Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:53:45.655Z","userId":1}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T02:54:07.545Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:54:09.046Z"}
+{"duration":1809,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:54:09.354Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T02:54:09.591Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:54:19.673Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T02:54:19.675Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:54:21.129Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T02:54:21.130Z"}
+{"duration":1761,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:54:21.436Z"}
+{"duration":1763,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T02:54:21.437Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:54:21.746Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T02:54:21.746Z","userId":1}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:09:27.892Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:09:27.893Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:09:29.511Z"}
+{"duration":1929,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:09:29.822Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:09:29.822Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:09:30.057Z","userId":1}
+{"duration":2169,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:09:30.063Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:09:30.304Z","userId":1}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:10:09.115Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:10:09.116Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:10:10.679Z"}
+{"duration":1805,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:10:10.920Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:10:11.191Z","userId":1}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:10:11.214Z"}
+{"duration":2386,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:10:11.503Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:10:11.806Z","userId":1}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:10:21.189Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:10:21.735Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:12:51.983Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:12:51.984Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:12:51.985Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:12:51.987Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:12:53.697Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:12:53.697Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:12:53.698Z"}
+{"duration":2022,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:12:54.008Z"}
+{"duration":2025,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:12:54.009Z"}
+{"duration":2022,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:12:54.009Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:12:54.010Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:12:54.312Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:12:54.312Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:12:54.313Z","userId":1}
+{"duration":2328,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:12:54.313Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:12:54.623Z","userId":1}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:13:00.702Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:13:00.705Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:13:01.278Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:13:01.279Z","userId":1}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:13:12.764Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:13:14.387Z"}
+{"duration":1926,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:13:14.690Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:13:14.996Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:13:27.801Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:13:27.802Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:13:30.102Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:13:30.107Z"}
+{"duration":2991,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:13:30.794Z"}
+{"duration":2994,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:13:30.795Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:13:31.400Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:13:31.401Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:14:47.788Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:14:47.790Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:14:47.791Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:14:47.792Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:14:49.414Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:14:49.494Z"}
+{"duration":1860,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:14:49.651Z"}
+{"duration":1962,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:14:49.754Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:14:49.964Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:14:49.992Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:14:50.105Z","userId":1}
+{"duration":2417,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:14:50.207Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:14:50.208Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:14:50.448Z","userId":1}
+{"duration":2668,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:14:50.457Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:14:50.745Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:16:40.975Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:16:40.976Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:16:40.977Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:16:40.978Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:16:42.703Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:16:42.854Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:16:42.952Z"}
+{"duration":1976,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:16:42.954Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:16:42.998Z"}
+{"duration":2119,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:16:43.096Z"}
+{"duration":2209,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:16:43.184Z"}
+{"duration":2264,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:16:43.240Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:16:43.254Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:16:43.455Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:16:43.456Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:16:43.485Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:20:42.144Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:20:42.145Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:20:43.894Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:20:43.951Z"}
+{"duration":2013,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:20:44.157Z"}
+{"duration":2107,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:20:44.252Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:20:44.536Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:20:44.536Z","userId":1}
+{"level":"info","message":"GET /api/v1/users/admin/all","timestamp":"2025-11-14T03:21:01.558Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:21:03.026Z"}
+{"duration":1721,"level":"warn","message":"Slow query detected","query":"SELECT COUNT(*) as total\n       FROM votteryy_user","timestamp":"2025-11-14T03:21:03.279Z"}
+{"level":"info","message":"All users retrieved","page":1,"timestamp":"2025-11-14T03:21:03.585Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:22:58.834Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:22:58.836Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:22:58.838Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:22:58.839Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:23:00.839Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:23:00.839Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:23:00.839Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:23:00.840Z"}
+{"duration":2247,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:23:01.085Z"}
+{"duration":2246,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:23:01.085Z"}
+{"duration":2453,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:23:01.288Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:23:01.333Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:23:01.347Z","userId":1}
+{"duration":2515,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:23:01.352Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:23:01.731Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:23:01.732Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:26:39.767Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:26:39.768Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:26:39.769Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:26:39.770Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:26:41.157Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:26:41.162Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:26:41.200Z"}
+{"duration":1624,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:26:41.392Z"}
+{"duration":1635,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:26:41.405Z"}
+{"duration":1673,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:26:41.440Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:26:41.686Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:26:41.690Z","userId":1}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:26:41.692Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:26:41.695Z","userId":1}
+{"duration":2211,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:26:41.980Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:26:42.255Z","userId":1}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:27:27.562Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:27:29.057Z"}
+{"duration":1871,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:27:29.433Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:27:29.740Z","userId":5}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:27:37.377Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:27:37.378Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:27:37.922Z","userId":5}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:27:38.852Z"}
+{"duration":1883,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:27:39.261Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:27:39.570Z","userId":5}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:28:15.501Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:28:15.505Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:28:19.652Z"}
+{"duration":4392,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:28:19.897Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:28:20.828Z","userId":5}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:28:21.144Z"}
+{"duration":5949,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:28:21.450Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:28:21.758Z","userId":5}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:28:55.003Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:28:55.004Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:28:55.006Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:28:55.007Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:28:56.328Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:28:56.329Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:28:56.427Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:28:56.485Z"}
+{"duration":1562,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:28:56.566Z"}
+{"duration":1558,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:28:56.566Z"}
+{"duration":1671,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:28:56.676Z"}
+{"duration":1711,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:28:56.717Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:28:56.814Z","userId":5}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:28:56.815Z","userId":5}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:28:56.917Z","userId":5}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:28:56.952Z","userId":5}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:31:46.632Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:31:46.633Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:31:53.214Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:31:53.283Z"}
+{"duration":6888,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:31:53.522Z"}
+{"duration":6890,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:31:53.523Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:31:53.831Z","userId":5}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:31:53.832Z","userId":5}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:32:01.443Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:32:02.024Z","userId":5}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:32:12.886Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:32:12.886Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:32:14.412Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:32:15.162Z"}
+{"duration":2541,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:32:15.429Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:32:15.736Z","userId":5}
+{"duration":3259,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:32:16.145Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T03:32:16.460Z","userId":5}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:33:22.444Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:33:23.911Z"}
+{"duration":1705,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:33:24.149Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T03:33:24.541Z","userId":4}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:33:30.850Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:33:30.851Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:33:32.331Z"}
+{"duration":1734,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:33:32.585Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:34:31.918Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:34:31.919Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:34:33.362Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:34:33.399Z"}
+{"duration":1751,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:34:33.669Z"}
+{"duration":1751,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:34:33.670Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:35:18.260Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:35:19.749Z"}
+{"duration":1797,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:35:20.057Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:35:26.495Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:35:26.496Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:35:27.942Z"}
+{"duration":1751,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:35:28.249Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:38:37.155Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:38:37.157Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:38:37.158Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:38:37.158Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:38:38.651Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:38:38.697Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:38:38.788Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:38:38.796Z"}
+{"duration":1734,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:38:38.891Z"}
+{"duration":1776,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:38:38.935Z"}
+{"duration":1915,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:38:39.071Z"}
+{"duration":1919,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:38:39.077Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:56:57.686Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:56:57.688Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:56:59.252Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:56:59.356Z"}
+{"duration":1862,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:56:59.550Z"}
+{"duration":1907,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:56:59.594Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T03:57:20.239Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:57:21.672Z"}
+{"duration":1706,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:57:21.945Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:57:28.701Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T03:57:28.701Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T03:57:30.241Z"}
+{"duration":1846,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T03:57:30.547Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T04:01:39.012Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T04:01:39.013Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T04:01:39.013Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T04:01:39.014Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T04:01:40.555Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T04:01:40.755Z"}
+{"duration":1779,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T04:01:40.792Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T04:01:40.856Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T04:01:40.894Z"}
+{"duration":2001,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T04:01:41.013Z"}
+{"duration":2118,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T04:01:41.131Z"}
+{"duration":2118,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T04:01:41.132Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T04:06:16.818Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T04:06:16.819Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T04:06:16.821Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T04:06:16.821Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T04:06:17.115Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T04:06:17.116Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T04:06:18.252Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T04:06:18.286Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T04:06:18.391Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T04:06:18.392Z"}
+{"duration":1667,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T04:06:18.485Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T04:06:18.490Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T04:06:18.494Z"}
+{"duration":1696,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T04:06:18.518Z"}
+{"duration":1808,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T04:06:18.628Z"}
+{"duration":1808,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T04:06:18.629Z"}
+{"duration":1613,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T04:06:18.729Z"}
+{"duration":1623,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T04:06:18.738Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T04:06:29.190Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T04:06:30.608Z"}
+{"duration":1724,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T04:06:30.914Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T04:06:39.307Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T04:06:39.308Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T04:06:39.854Z","userId":1}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T04:06:40.951Z"}
+{"duration":1961,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T04:06:41.269Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T04:06:41.565Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T04:24:41.653Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T04:24:41.654Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T04:24:41.654Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T04:24:41.655Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T04:24:43.187Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T04:24:43.251Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T04:24:43.451Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T04:24:43.453Z"}
+{"duration":1831,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T04:24:43.486Z"}
+{"duration":1897,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T04:24:43.552Z"}
+{"duration":2108,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T04:24:43.761Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T04:24:43.852Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T04:24:43.853Z","userId":1}
+{"duration":2299,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T04:24:43.954Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T04:24:44.054Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T04:24:44.349Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T05:03:25.971Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T05:03:25.972Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T05:03:25.974Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T05:03:25.977Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:03:27.254Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:03:27.290Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:03:27.324Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:03:27.389Z"}
+{"duration":1508,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:03:27.485Z"}
+{"duration":1553,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:03:27.524Z"}
+{"duration":1582,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:03:27.557Z"}
+{"duration":1667,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:03:27.639Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T05:03:27.718Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T05:03:27.769Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T05:03:27.794Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T05:03:27.878Z","userId":1}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T05:03:50.177Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:03:51.783Z"}
+{"duration":1888,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:03:52.065Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T05:03:52.399Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T05:03:57.903Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T05:03:57.904Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T05:03:58.543Z","userId":1}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:03:59.493Z"}
+{"duration":1866,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:03:59.770Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T05:04:00.013Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T05:05:33.398Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T05:05:33.399Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T05:05:33.400Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T05:05:33.400Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:05:34.778Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:05:34.808Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:05:34.824Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:05:34.899Z"}
+{"duration":1620,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:05:35.018Z"}
+{"duration":1651,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:05:35.050Z"}
+{"duration":1662,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:05:35.062Z"}
+{"duration":1737,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:05:35.138Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T05:05:35.250Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T05:05:35.280Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T05:05:35.299Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T05:05:35.378Z","userId":1}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T05:05:35.419Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T05:05:35.420Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T05:05:35.891Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T05:05:35.895Z","userId":1}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T05:08:19.722Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T05:08:19.723Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:08:20.971Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:08:21.063Z"}
+{"duration":1509,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:08:21.231Z"}
+{"duration":1576,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:08:21.300Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T05:08:21.512Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T05:08:21.537Z","userId":1}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T05:08:32.974Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:08:34.408Z"}
+{"duration":1741,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:08:34.715Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T05:08:34.948Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T05:08:41.483Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T05:08:41.484Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T05:08:42.105Z","userId":1}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:08:43.112Z"}
+{"duration":1935,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:08:43.419Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T05:08:43.758Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T05:09:04.530Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T05:09:04.530Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:09:06.057Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:09:06.072Z"}
+{"duration":1765,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:09:06.295Z"}
+{"duration":1785,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:09:06.315Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T05:09:06.562Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T05:09:06.564Z","userId":1}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T05:09:48.463Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:09:49.837Z"}
+{"duration":1610,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:09:50.073Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T05:09:50.370Z","userId":5}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T05:09:59.118Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T05:09:59.118Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T05:09:59.797Z","userId":5}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:10:00.741Z"}
+{"duration":1920,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:10:01.039Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T05:10:01.348Z","userId":5}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T05:10:35.773Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:10:37.272Z"}
+{"duration":1822,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:10:37.596Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T05:10:37.904Z","userId":4}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T05:10:43.901Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T05:10:43.902Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T05:10:45.226Z"}
+{"duration":1586,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T05:10:45.488Z"}
+{"level":"info","message":"User Service running on port 3002","timestamp":"2025-11-14T07:52:43.357Z"}
+{"level":"info","message":"User Service running on port 3002","timestamp":"2025-11-14T07:54:20.299Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T07:54:38.360Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T07:54:39.790Z"}
+{"duration":1676,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T07:54:40.037Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T07:54:40.518Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T07:54:46.112Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T07:54:46.114Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T07:54:46.595Z","userId":1}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T07:54:47.404Z"}
+{"duration":1595,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T07:54:47.709Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T07:54:48.017Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T10:40:14.490Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T10:40:14.491Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T10:40:14.492Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T10:40:14.493Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T10:40:16.088Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T10:40:16.185Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T10:40:16.190Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T10:40:16.280Z"}
+{"duration":1832,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T10:40:16.326Z"}
+{"duration":1926,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T10:40:16.418Z"}
+{"duration":1938,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T10:40:16.429Z"}
+{"duration":2020,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T10:40:16.513Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T10:40:16.565Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T10:40:16.663Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T10:40:16.668Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T10:40:16.747Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T10:40:19.287Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T10:40:19.289Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T10:40:19.290Z"}
+{"level":"info","message":"POST /api/v1/users/me/data","timestamp":"2025-11-14T10:40:19.291Z"}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T10:40:19.842Z","userId":1}
+{"level":"info","message":"Complete user data retrieved","timestamp":"2025-11-14T10:40:19.843Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T10:40:19.844Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T10:40:19.845Z","userId":1}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T12:12:28.873Z"}
+{"level":"info","message":"POST /api/v1/profiles/me","timestamp":"2025-11-14T12:12:28.874Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T12:12:30.187Z"}
+{"level":"debug","message":"New database connection","timestamp":"2025-11-14T12:12:30.295Z"}
+{"duration":1547,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T12:12:30.421Z"}
+{"duration":1663,"level":"warn","message":"Slow query detected","query":"SELECT user_id FROM public.users WHERE user_id = $","timestamp":"2025-11-14T12:12:30.537Z"}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T12:12:30.653Z","userId":1}
+{"level":"info","message":"Profile retrieved","timestamp":"2025-11-14T12:12:30.781Z","userId":1}
+{"level":"info","message":"User Service running on port 3002","timestamp":"2025-11-14T13:43:08.868Z"}
