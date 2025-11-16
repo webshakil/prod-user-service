@@ -1,18 +1,21 @@
-import { sendSuccess, sendError } from '../utils/responseFormatter.js';
-import * as userService from '../services/userService.js';
+import logger from "../utils/logger.js";
+import { sendError, sendSuccess } from "../utils/responseFormatter.js";
+import * as userService from '../services/userService.js';  // ✅ ADD THIS LINE
 import { validateUserUpdate, validatePreferences } from '../utils/validators.js';
-import logger from '../utils/logger.js';
 
 export const getProfile = async (req, res) => {
   try {
-    // Get userId from request body (sent from frontend)
-    const { userId } = req.body;
+    // ✅ Accept userId from multiple sources
+    const userId = req.body.userId || 
+                   req.params.userId || 
+                   req.query.userId || 
+                   req.user?.userId;
 
     if (!userId) {
-      return sendError(res, 'User ID required in request body', 400);
+      return sendError(res, 'User ID required', 400);
     }
 
-    const profile = await userService.getUserProfile(userId);
+    const profile = await userService.getUserProfile(userId);  // ✅ NOW THIS WILL WORK
 
     if (!profile) {
       return sendSuccess(res, {}, 'Profile not found');
@@ -28,11 +31,16 @@ export const getProfile = async (req, res) => {
 
 export const updateProfile = async (req, res) => {
   try {
-    const { userId, ...profileData } = req.body;
+    const userId = req.body.userId || 
+                   req.params.userId || 
+                   req.query.userId || 
+                   req.user?.userId;
 
     if (!userId) {
-      return sendError(res, 'User ID required in request body', 400);
+      return sendError(res, 'User ID required', 400);
     }
+
+    const { userId: _, ...profileData } = req.body;
 
     const { error, value } = validateUserUpdate(profileData);
 
@@ -52,11 +60,13 @@ export const updateProfile = async (req, res) => {
 
 export const getPreferences = async (req, res) => {
   try {
-    // Get userId from request body (sent from frontend)
-    const { userId } = req.body;
+    const userId = req.body.userId || 
+                   req.params.userId || 
+                   req.query.userId || 
+                   req.user?.userId;
 
     if (!userId) {
-      return sendError(res, 'User ID required in request body', 400);
+      return sendError(res, 'User ID required', 400);
     }
 
     const preferences = await userService.getUserPreferences(userId);
@@ -75,11 +85,16 @@ export const getPreferences = async (req, res) => {
 
 export const updatePreferences = async (req, res) => {
   try {
-    const { userId, ...preferences } = req.body;
+    const userId = req.body.userId || 
+                   req.params.userId || 
+                   req.query.userId || 
+                   req.user?.userId;
 
     if (!userId) {
-      return sendError(res, 'User ID required in request body', 400);
+      return sendError(res, 'User ID required', 400);
     }
+
+    const { userId: _, ...preferences } = req.body;
 
     const { error, value } = validatePreferences(preferences);
 
@@ -96,17 +111,19 @@ export const updatePreferences = async (req, res) => {
     return sendError(res, error.message, 500);
   }
 };
-// import { sendSuccess, sendError } from '../utils/responseFormatter.js';
-// import * as userService from '../services/userService.js';
-// import { validateUserUpdate, validatePreferences } from '../utils/validators.js';
-// import logger from '../utils/logger.js';
+// import logger from "../utils/logger.js";
+// import { sendError } from "../utils/responseFormatter.js";
 
 // export const getProfile = async (req, res) => {
 //   try {
-//     const userId = req.userId;
+//     // ✅ Accept userId from multiple sources
+//     const userId = req.body.userId || 
+//                    req.params.userId || 
+//                    req.query.userId || 
+//                    req.user?.userId;  // From auth middleware
 
 //     if (!userId) {
-//       return sendError(res, 'Unauthorized', 401);
+//       return sendError(res, 'User ID required', 400);
 //     }
 
 //     const profile = await userService.getUserProfile(userId);
@@ -125,8 +142,18 @@ export const updatePreferences = async (req, res) => {
 
 // export const updateProfile = async (req, res) => {
 //   try {
-//     const userId = req.userId;
-//     const { error, value } = validateUserUpdate(req.body);
+//     const userId = req.body.userId || 
+//                    req.params.userId || 
+//                    req.query.userId || 
+//                    req.user?.userId;
+
+//     if (!userId) {
+//       return sendError(res, 'User ID required', 400);
+//     }
+
+//     const { userId: _, ...profileData } = req.body; // Remove userId from profileData
+
+//     const { error, value } = validateUserUpdate(profileData);
 
 //     if (error) {
 //       return sendError(res, error.details[0].message, 400);
@@ -144,10 +171,13 @@ export const updatePreferences = async (req, res) => {
 
 // export const getPreferences = async (req, res) => {
 //   try {
-//     const userId = req.userId;
+//     const userId = req.body.userId || 
+//                    req.params.userId || 
+//                    req.query.userId || 
+//                    req.user?.userId;
 
 //     if (!userId) {
-//       return sendError(res, 'Unauthorized', 401);
+//       return sendError(res, 'User ID required', 400);
 //     }
 
 //     const preferences = await userService.getUserPreferences(userId);
@@ -166,8 +196,18 @@ export const updatePreferences = async (req, res) => {
 
 // export const updatePreferences = async (req, res) => {
 //   try {
-//     const userId = req.userId;
-//     const { error, value } = validatePreferences(req.body);
+//     const userId = req.body.userId || 
+//                    req.params.userId || 
+//                    req.query.userId || 
+//                    req.user?.userId;
+
+//     if (!userId) {
+//       return sendError(res, 'User ID required', 400);
+//     }
+
+//     const { userId: _, ...preferences } = req.body; // Remove userId from preferences
+
+//     const { error, value } = validatePreferences(preferences);
 
 //     if (error) {
 //       return sendError(res, error.details[0].message, 400);

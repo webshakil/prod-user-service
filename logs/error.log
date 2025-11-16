@@ -1025,3 +1025,6 @@
 {"error":"relation \"user_roles\" does not exist","level":"error","message":"Database query error","timestamp":"2025-11-13T14:46:58.996Z"}
 {"error":"relation \"user_roles\" does not exist","level":"error","message":"Error getting user profile","timestamp":"2025-11-13T14:46:58.996Z","userId":1}
 {"error":"relation \"user_roles\" does not exist","level":"error","message":"Error retrieving profile","timestamp":"2025-11-13T14:46:58.996Z"}
+{"error":"userService is not defined","level":"error","message":"Error retrieving profile","timestamp":"2025-11-16T10:36:28.234Z"}
+{"error":"userService is not defined","level":"error","message":"Error retrieving profile","timestamp":"2025-11-16T10:38:22.309Z"}
+{"error":"userService is not defined","level":"error","message":"Error retrieving profile","timestamp":"2025-11-16T10:38:22.310Z"}
