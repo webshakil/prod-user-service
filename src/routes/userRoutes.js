@@ -14,7 +14,7 @@ router.get('/search', userController.searchUsers);
 router.get('/:userId', userController.getUserById);
 
 // Protected endpoints - require userId
-router.post('/me/data', requireUserId, verifyUserExists, hasRole('Voter'), 
+router.post('/me/data', requireUserId, verifyUserExists, 
   userController.getCompleteUserData);
 
 // ✅ NEW: Admin endpoints for user management
